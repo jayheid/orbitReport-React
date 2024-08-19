@@ -1,5 +1,3 @@
-import satData from "./satData";
-
 const Table = ({ sat }) => {
   return (
     <table>
@@ -8,6 +6,7 @@ const Table = ({ sat }) => {
           <th>Name</th>
           <th>Type of Satellite</th>
           <th>Launch Date</th>
+          <th>Orbit Type</th>
           <th>Status</th>
         </tr>
       </thead>
