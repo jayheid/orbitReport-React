@@ -12,11 +12,13 @@ const Table = ({ sat }) => {
         </tr>
       </thead>
       <tbody>
-        {sat.map(id, (data) => (
-          <tr key={id}>
-            <td>{data.name}</td>
-          </tr>
-        ))}
+        {sat.map((id, data) => {
+          return (
+            <tr key={id}>
+              <td>{data.name}</td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   );
